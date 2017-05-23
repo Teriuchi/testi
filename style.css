@@ -1,0 +1,92 @@
+* 
+{
+	margin: 			0;
+	padding:			0;
+}
+			
+body
+{
+	height:				100vh;
+}
+			
+#title
+{
+	border:				3px solid black;
+	padding:			40px;
+	background-color:	red;
+	box-sizing:			border-box;
+	height:				12.5%;
+	width:				100%;
+}
+
+ul 
+{
+	border:				1px, solid, black;
+}
+
+li a 
+{
+    display: 			block;
+    color: 				blue;
+    padding: 			8px 16px;
+    text-decoration: 	none;
+	border-bottom:		3px solid black;
+	height:				30%;
+	box-sizing:			border-box;
+}
+
+li a:hover 
+{
+    background-color: 	#555;
+    color: 				grey;
+	border:				3px solid black;
+	box-sizing:			border-box;
+}
+
+#sidenav
+{
+    list-style-type: 	none;
+    margin: 			0;
+    padding: 			0;
+    width: 				12.5%;
+	height:				79.5%;
+    background-color: 	red;
+	border-right:		3px solid black;
+	float:				left;
+	box-sizing:			border-box;
+	border-left:		3px solid black;
+	border-bottom:		3px solid black;
+}
+
+#inner
+{
+	float:				left;
+	padding:			30px;
+	height:				79.5%;
+	width:				75%;
+	border-bottom:		3px solid black;
+	border-right:		3px solid black;
+	box-sizing:			border-box;
+	
+}
+
+#picNav
+{
+	float:				left;
+	height:				79.5%;
+	width:				12.5%;
+	background-color: 	red;
+	border-right:		3px solid black;
+	border-bottom:		3px solid black;
+	box-sizing:			border-box;
+}
+
+#bottomNav
+{
+	border:				1px solid black;
+	height:				8%;
+	width:				100%;
+	background-color:	red;
+	box-sizing:			border-box;
+	clear:				left;
+}
