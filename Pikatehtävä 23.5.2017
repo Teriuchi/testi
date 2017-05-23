@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sivun nimi</title>
+
+</head>
+
+<body>
+
+<div id="title">Sivun nimi</div>
+
+<div id="sidenav">
+	<ul>
+		<div class = "palkki"><li><a href="#l1">l1</a></li></div>
+		<div class = "palkki"><li><a href="#l2">l2</a></li></div>
+		<div class = "palkki"><li><a href="#l3">l3</a></li></div>
+		<div class = "palkki"><li><a href="#l4">l4</a></li></div>
+	</ul>
+</div>
+
+<div id="inner">Sisältöä</div>
+
+<div id="picNav">Kuva</div>
+
+<div id="bottomNav"><center>Tyhjä</center></div>
+
+</body>
+
+</html>
